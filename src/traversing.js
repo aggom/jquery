@@ -5,7 +5,6 @@ define([
 	"./traversing/findFilter",
 	"./selector"
 ], function( jQuery, rneedsContext ) {
-
 var rparentsprev = /^(?:parents|prev(?:Until|All))/,
 	// methods guaranteed to produce a unique set when starting from a unique set
 	guaranteedUnique = {
